@@ -31,6 +31,10 @@ const AboutPage = props => (
 
       <SmallTitle>My <Accent>Tools</Accent> </SmallTitle>
 
+      <LandingImage img={homeImage}>
+        </LandingImage>
+
+
 
       <CardLayout>
 
