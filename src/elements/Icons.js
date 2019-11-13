@@ -24,30 +24,30 @@ const LandingPageIcons = styled(HorizontalIcons)`
 `;
 
 const MailIcon = styled(Envelope)`
-${props => props.theme.iconMixin('4rem', 'white', '700px')}
+${props => props.theme.iconMixin('4rem', 'black', '700px')}
 ${props => props.theme.hoverColorMixin(`${props.theme.secondary}`, 0.5)}
 
 `;
 
 const GithubIcon = styled(Github)`
 
-${props => props.theme.iconMixin('4rem', 'white', '700px')}
+${props => props.theme.iconMixin('4rem', 'black', '700px')}
 ${props => props.theme.hoverColorMixin(`${props.theme.secondary}`, 0.5)}
 `;
 
 const TwitterIcon = styled(Twitter)`
-${props => props.theme.iconMixin('4rem', 'white', '700px')}
+${props => props.theme.iconMixin('4rem', 'black', '700px')}
 ${props => props.theme.hoverColorMixin(`${props.theme.secondary}`, 0.5)}
 `;
 
 const LinkedinIcon = styled(LinkedinIn)`
-${props => props.theme.iconMixin('4rem', 'white', '700px')}
+${props => props.theme.iconMixin('4rem', 'black', '700px')}
 ${props => props.theme.hoverColorMixin(`${props.theme.secondary}`, 0.5)}
 
 `;
 
 const FileIcon = styled(FileAlt)`
-${props => props.theme.iconMixin('4rem', 'white', '700px')}
+${props => props.theme.iconMixin('4rem', 'black', '700px')}
 ${props => props.theme.hoverColorMixin(`${props.theme.secondary}`, 0.5)}
 
 `;

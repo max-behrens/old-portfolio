@@ -9,9 +9,9 @@ const theme = {
   primary: 'rgb(101,57,52)',
   primaryOpacity: 'rgba(253,155,105,0.1)',
   primaryText: 'white',
-  secondary: 'rgb(247,213,173)',
-  secondaryText: 'rgb(247,213,173)',
-  mobileMenuOpacity: '0.50',
+  secondary: 'rgb(252,193,126)',
+  secondaryText: 'rgb(252,193,126)',
+  mobileMenuOpacity: '0.95',
   mobileBreakpoint: '700px',
 
   iconMixin: (size, color, breakpoint) => `

@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: `James Litchfield`,
-        description: `Welcome to my portfolio.`,
+        title: `Max Behrens`,
+        description: `Welcome to my online portfolio.`,
         author: `@James Litchfield`,
 
         menuLinks: [
