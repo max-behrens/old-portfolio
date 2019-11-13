@@ -22,7 +22,6 @@ const ProjectsPage = () => {
           description
           languages
           github
-          url
           image{
             childImageSharp{
               fluid{

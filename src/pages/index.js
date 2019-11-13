@@ -9,6 +9,7 @@ import {
   LargeTitle,
   Accent,
   CenterXY,
+  CenterXBottomY,
   Paragraph,
   Divider,
   LandingPageIcons,
@@ -42,13 +43,11 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <LandingImage img={homeImage}>
-        <CenterXY height="100vh" width='100vw'>
+        <CenterXBottomY height="100vh" width='100vw'>
 
-          <LargeTitle>Hello <Accent>World</Accent></LargeTitle>
+         
 
-          <Paragraph>
-            I'm James, a Computer Science student with a passion for web development.
-    </Paragraph>
+       
 
           <Divider />
 
@@ -62,7 +61,7 @@ const IndexPage = () => {
 
           </LandingPageIcons>
 
-        </CenterXY>
+        </CenterXBottomY>
 
       </LandingImage>
     </Layout>

@@ -6,11 +6,11 @@ import Header from './Header'
 
 const theme = {
 
-  primary: 'rgb(68,68,68)',
-  primaryOpacity: 'rgba(68,68,68,0.9)',
+  primary: 'rgb(101,57,52)',
+  primaryOpacity: 'rgba(253,155,105,0.1)',
   primaryText: 'white',
-  secondary: 'rgb(238,206,26)',
-  secondaryText: 'rgb(238,206,26)',
+  secondary: 'rgb(101,30,60)',
+  secondaryText: 'rgb(101,30,60)',
   mobileMenuOpacity: '0.95',
   mobileBreakpoint: '700px',
 

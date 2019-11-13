@@ -1,12 +1,5 @@
 [
-    {
-        "title": "Portfolio",
-        "image": "./images/portfolio.png",
-        "description": "A cool portfolio using gatsby blah blah blah.",
-        "languages": "Gatsby / React / GraphQL",
-        "github": "https://github.com/james-litch/james-litch.github.io/tree/master-source",
-        "url": "https://james-litch.github.io"
-    },
+   
     {
         "title": "Cart Pole",
         "image": "./images/cartPole.png",

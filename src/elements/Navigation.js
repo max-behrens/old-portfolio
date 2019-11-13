@@ -2,7 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import { Link } from 'gatsby'
 
-const NavLink = styled(Link)`
+const NavLink = styled(Link)
+`
 display: inline-block;
 padding: 18px 20px;
 font-size: 20px;
@@ -108,7 +109,7 @@ const Navbar = styled.header`
     display: grid;
     grid-template-areas: "NavbarBrand Nav";
     align-items: center;
-    background-color: rgb(68,68,68);
+    background-color: ${props=>props.theme.primary};
     /* background-color: ${(props) => props.darkenNav ? "rgb(68,68,68)" : "none"} ; */
     
     

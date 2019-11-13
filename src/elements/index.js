@@ -19,6 +19,7 @@ import {
 import {
     CenterX,
     CenterXY,
+	CenterXBottomY,
     CardLayout,
     CardWrapper,
     HoverContainer,
@@ -73,6 +74,7 @@ export {
     // Containers.
     CenterX,
     CenterXY,
+	CenterXBottomY,
     CardLayout,
     CardWrapper,
     HoverContainer,

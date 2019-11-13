@@ -1,15 +1,15 @@
 import styled from "styled-components"
 import {
-  Accent
+    Accent
 } from "../elements"
 
-const CenterX = styled.div`
+const CenterX = styled.div `
 width: 100vw;
 padding: 5vh 2vh;
 text-align: center;
 `;
 
-const CardLayout = styled.div`
+const CardLayout = styled.div `
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 grid-gap: 1rem;
@@ -21,7 +21,21 @@ justify-items: center;
 
 `;
 
-const CardWrapper = styled.div`
+const CenterXBottomY = styled(CenterX)
+`
+display: flex;
+height: ${props => props.height || "100px"};
+width: ${props => props.width || "100px"};
+flex-direction: column;
+justify-content: flex-end;
+align-content: center;
+align-items: center;
+
+
+
+`;
+
+const CardWrapper = styled.div `
 
 height: ${props => props.height || "50px"};
 width:  ${props => props.width || "50px"};
@@ -34,7 +48,8 @@ box-shadow: 0px 0px 20px black;
 
 `;
 
-const CenterXY = styled(CenterX)`
+const CenterXY = styled(CenterX)
+`
 height: ${props => props.height || "100px"};
 width: ${props => props.width || "100px"};
 display: flex;
@@ -44,7 +59,8 @@ justify-content: center;
 
 `;
 
-const HoverContainer = styled(CenterXY)`
+const HoverContainer = styled(CenterXY)
+`
 color: transparent;
 padding: 0;
 justify-content: space-around;
@@ -73,6 +89,7 @@ ${Accent}{
 export {
   CenterX,
   CenterXY,
+  CenterXBottomY,
   CardLayout,
   CardWrapper,
   HoverContainer,
