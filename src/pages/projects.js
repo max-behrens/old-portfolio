@@ -4,9 +4,12 @@ import { graphql, useStaticQuery } from "gatsby";
 import Layout from "../components/layout";
 import SEO from "../components/seo";
 import ProjectCard from "../components/ProjectCard";
+import projectsImage from "../data/images/about-img.jpg"
+
 
 import {
   SmallTitle,
+  LandingImage,
   Accent,
   CenterX,
   CardLayout,
@@ -39,6 +42,7 @@ const ProjectsPage = () => {
   return (
     <Layout>
       <SEO title="Projects"/>
+      <LandingImage img = {projectsImage}>
       <CenterX>
 
         <SmallTitle>My <Accent>Projects</Accent> </SmallTitle>
@@ -71,6 +75,7 @@ const ProjectsPage = () => {
         </CardLayout>
 
       </CenterX>
+      </LandingImage>
     </Layout>
   );
 }

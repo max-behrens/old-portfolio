@@ -1,11 +1,14 @@
 import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import aboutImage from "../data/images/about-img.jpg"
+
 
 import {
-
+  
   SmallTitle,
   Accent,
+  LandingImage,
   CenterX,
   SmallParagraph,
   Paragraph,
@@ -18,6 +21,8 @@ const AboutPage = props => (
   <Layout>
 
     <SEO title="About" />
+    <LandingImage img={aboutImage}>
+
     <CenterX>
 
       <SmallTitle>About <Accent>Me</Accent> </SmallTitle>
@@ -31,8 +36,7 @@ const AboutPage = props => (
 
       <SmallTitle>My <Accent>Tools</Accent> </SmallTitle>
 
-      <LandingImage img={homeImage}>
-        </LandingImage>
+      
 
 
 
@@ -66,6 +70,7 @@ const AboutPage = props => (
       </CardLayout>
 
     </CenterX>
+    </LandingImage>
 
   </Layout>
 )
