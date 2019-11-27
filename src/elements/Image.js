@@ -17,7 +17,7 @@ linear-gradient(
     ${props.theme.primaryOpacity},
     ${props.theme.primaryOpacity}
     ),
-    url(${props.img}) no-repeat center center fixed
+    url(${props.img}) repeat center center 
     `};
     background-size: cover;
     

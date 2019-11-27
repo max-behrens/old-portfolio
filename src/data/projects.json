@@ -3,15 +3,15 @@
     {
         "title": "Cart Pole",
         "image": "./images/cartPole.png",
-        "description": "Training an AI agent to play cartpole.",
-        "languages": "Python",
-        "github": "https://github.com/james-litch/CartPole"
+        "description": "HTML PORTFOLIO",
+        "languages": "",
+        "github": "https://github.com/max-behrens/max-behrens.github.io"
     },
     {
         "title": "Timetable App (android)",
         "image": "./images/timetable.jpg",
-        "description": "A time table app, with integrated maps and attendance registering.",
-        "languages": "Java / XML / MySQL / PHP ",
-        "github": "https://github.com/james-litch/UoLTimetable"
+        "description": "UNIT CONVERTER APP",
+        "languages": "",
+        "github": "https://github.com/max-behrens/Unit-Converter-App"
     }
 ]

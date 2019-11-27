@@ -45,7 +45,7 @@ const ProjectsPage = () => {
       <LandingImage img = {projectsImage}>
       <CenterX>
 
-        <SmallTitle>My <Accent>Projects</Accent> </SmallTitle>
+        <SmallTitle> HTML PORTFOLIO ________ UNIT CONVERTER<Accent></Accent> </SmallTitle>
 
         <CardLayout>
 
