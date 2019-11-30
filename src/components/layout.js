@@ -6,8 +6,8 @@ import Header from './Header'
 
 const theme = {
 
-  primary: 'rgb(101,57,52)',
-  primaryOpacity: 'rgba(253,155,105,0.1)',
+  primary: 'rgb(80,57,52)',
+  primaryOpacity: 'rgba(253,130,105,0.2)',
   primaryText: 'white',
   secondary: 'rgb(189,86,84)',
   secondaryText: 'rgb(189,86,84)',

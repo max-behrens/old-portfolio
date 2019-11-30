@@ -36,7 +36,7 @@ const ProjectCard = ({ title, description, languages, github, url, image }) => (
         </TitleBar>
 
         <BackgroundImage fluid={image} >
-            <HoverContainer height="250px" width="700px">
+            <HoverContainer height="250px" width="550px">
                 
             </HoverContainer>
 

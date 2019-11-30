@@ -12,6 +12,7 @@ width: 100vw;
 
 
 
+
 background: ${props => `
 linear-gradient(
     ${props.theme.primaryOpacity},

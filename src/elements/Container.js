@@ -1,4 +1,6 @@
 import styled from "styled-components"
+import logoImage from "../data/images/logo.png"
+
 import {
     Accent
 } from "../elements"
@@ -40,7 +42,7 @@ const CardWrapper = styled.div `
 height: ${props => props.height || "50px"};
 width:  ${props => props.width || "50px"};
 padding:  ${props => props.padding || "0px"};
-background-color: ${props => props.color || "white"};
+background-color: ${props => props.color || "transparent"};
 border-radius: ${props => props.borderRadius || "50px"};
 box-shadow: 0px 0px 20px black;
 
@@ -77,10 +79,10 @@ ${Accent}{
     )
     `};
     
-    color: ${props => props.theme.primaryText};
+    color: ${props => props.theme.primary};
     
     ${Accent} {
-      color: ${props => props.theme.secondary};
+      color: ${props => props.theme.primary};
     }
   }
   `;
