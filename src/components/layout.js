@@ -7,11 +7,11 @@ import Header from './Header'
 const theme = {
 
   primary: 'rgb(80,57,52)',
-  primaryOpacity: 'rgba(253,130,105,0.2)',
+  primaryOpacity: 'rgba(253,100,105,0.2)',
   primaryText: 'white',
   secondary: 'rgb(189,86,84)',
-  secondaryText: 'rgb(189,86,84)',
-  mobileMenuOpacity: '0.95',
+  secondaryText: 'rgb(130,70,84)',
+  mobileMenuOpacity: '1',
   mobileBreakpoint: '700px',
 
   iconMixin: (size, color, breakpoint) => `

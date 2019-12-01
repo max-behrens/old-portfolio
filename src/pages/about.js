@@ -5,7 +5,6 @@ import SEO from "../components/seo"
 import aboutImage from "../data/images/about-img.jpg"
 import logoImage from "../data/images/logo.png"
 import AboutCard from "../components/AboutCard";
-import AboutCardTwo from "../components/AboutCardTwo"
 
 
 
@@ -23,7 +22,6 @@ import {
 } from "../elements"
 
 const AboutPage = () => {
-
 const data = useStaticQuery(graphql`
   {
     allAboutJson{
@@ -51,8 +49,8 @@ const data = useStaticQuery(graphql`
 
     <SEO title="About" />
     <LandingImage img={aboutImage}>
+      <CenterX>
 
-    <CenterX>
 
       <SmallTitle> <Accent></Accent>About Me </SmallTitle>
 
@@ -74,9 +72,7 @@ const data = useStaticQuery(graphql`
 
 
       <CardLayout>
-
-        <CardWrapper color="transparent" width="900px" height="350px" borderRadius="20px" padding="10px">
-        {about.map(({ node: about }) => {
+      {about.map(({ node: about }) => {
             const description = about.description;
             const image = about.image.childImageSharp.fluid;
 
@@ -88,8 +84,6 @@ const data = useStaticQuery(graphql`
             )
 
           })}
-
-        </CardWrapper>
 
       
 

@@ -42,7 +42,7 @@ const CardWrapper = styled.div `
 height: ${props => props.height || "50px"};
 width:  ${props => props.width || "50px"};
 padding:  ${props => props.padding || "0px"};
-background-color: ${props => props.color || "transparent"};
+background-color: ${props => props.color || "white"};
 border-radius: ${props => props.borderRadius || "50px"};
 box-shadow: 0px 0px 20px black;
 

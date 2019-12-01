@@ -13,6 +13,8 @@ width: 100vw;
 
 
 
+
+
 background: ${props => `
 linear-gradient(
     ${props.theme.primaryOpacity},
@@ -29,7 +31,7 @@ linear-gradient(
     height: ${props => props.height || "500px"};
     width:  ${props => props.width || "500px"};
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: space-around;
     align-content: space-around;
     text-align: center;
