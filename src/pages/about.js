@@ -52,7 +52,7 @@ const data = useStaticQuery(graphql`
       <CenterX>
 
 
-      <SmallTitle> <Accent></Accent>About Me </SmallTitle>
+      <SmallTitle> <Accent>About Me</Accent> </SmallTitle>
 
       <SmallParagraph>
       <Accent>I have graduated from the University of Liverpool with an Honours Degree
