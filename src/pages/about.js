@@ -55,12 +55,14 @@ const data = useStaticQuery(graphql`
       <SmallTitle> <Accent></Accent>About Me </SmallTitle>
 
       <SmallParagraph>
-      <Accent>I am a third year computer science and mathematics undergraduate
-         studying at the University of Liverpool. I study problem solving techniques
-         in computational and mechanical systems, and have created various projects
-         such as data handling applications for companies for their organisational gain.
-         
-         Outside of STEM based research, I have created digital art for various clients. </Accent>
+      <Accent>I have graduated from the University of Liverpool with an Honours Degree
+         in Mathematics and Computer Science, having studied problem solving techniques
+          in computational and mechanical systems and created data handling and other
+           applications for client companies. Among these is the Liverpool-based
+            tutoring establishment Academy International, where I also have three years'
+             experience in teaching maths and physics to GCSE and A-level students.
+             I have developed projects in JavaScript, having used different frameworks such as React 
+             and Flutter; and am designing a prototype for a 3D combat game in C# using Unity. </Accent>
       </SmallParagraph>
 
       <Divider />

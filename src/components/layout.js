@@ -8,9 +8,9 @@ const theme = {
 
   primary: 'rgb(80,57,52)',
   primaryOpacity: 'rgba(253,100,105,0.2)',
-  primaryText: 'white',
+  primaryText: 'rgb(100, 60, 80)',
   secondary: 'rgb(189,86,84)',
-  secondaryText: 'rgb(130,70,84)',
+  secondaryText: 'rgb(130, 70, 84)',
   mobileMenuOpacity: '1',
   mobileBreakpoint: '700px',
 
